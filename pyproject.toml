@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lyc_chatops"
+version = "0.1.0"
+description = ""
+authors = ["Yuchen Liu <steny138@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+errbot = "^6.1.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^6.0.0"
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

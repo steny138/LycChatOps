@@ -1,0 +1,9 @@
+[Core]
+Name = AppService
+Module = app_service
+
+[Documentation]
+Description = This is a simple plugin azure app service to get azure app service state.
+
+[Python]
+Version = 3
